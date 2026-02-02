@@ -22,15 +22,15 @@ Machine learning system for classifying plant diseases from leaf images using th
 ```
 plant-disease-classification/
     ├── data/
-    │   ├── raw/              # Original dataset
-    │   └── processed/        # Preprocessed data
+    │   ├── raw/
+    │   └── processed/
     ├── notebooks/
     │   └── 01_eda.ipynb
     ├── src/
     │   └── data/
     │       ├── download.py
     │       └── preprocessing.py
-    └──experiments/           # Analysis results
+    └──tests/
 ```
 ## Key Findings (Week 1)
 - Total images: ~54,000+
@@ -47,4 +47,5 @@ plant-disease-classification/
 - Build baseline CNN model
 - Implement transfer learning
 - Set up experiment tracking
+
 
